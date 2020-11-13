@@ -19,6 +19,9 @@ ex：
 
 
 ## 變數的型別
+:PROPERTIES:
+:custom_id: 5fae6b75-d810-4b8d-805d-4c85b8a69b05
+:END:
 
 變數的型別可以分為幾種，分別是：
 
@@ -26,9 +29,6 @@ ex：
 2. 字串（string），下方細說。
 3. 布林（boolean），值有`true`和`false`兩種。
 4. 其他，像是 null、undefined、symbol，這邊只會提到undefined。
-
-
-
 ## 變數的寫法
 
 首先先用var建立變數，命名變數名稱並宣告，最後賦予一個值。
@@ -83,6 +83,9 @@ var total = apple+grape;
 
 
 ## 字串（string）
+:PROPERTIES:
+:custom_id: 5fae6b75-c522-4b15-bd5e-4b97cb4dcfb1
+:END:
 
 字串的變數宣告方式為：
 
@@ -92,7 +95,6 @@ var boy = 'Andy';
 ```
 
 等號後在單引號或雙引號內賦值，注意單雙引號皆可，但必須要成雙。
-
 ### 字串連結
 
 字串與字串間可以用`+`來將兩個字串連在一起，要特別注意的是，`+`必須為半形，且被連結的兩個字串中間不會有空白。
